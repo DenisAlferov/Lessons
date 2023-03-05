@@ -10,8 +10,6 @@
     max-width: 1200px;
     padding: 0 15px;
     margin: 0 auto;
-
-
 }
 .h2_pricing{
         padding: 53px;
@@ -20,14 +18,12 @@
     font-style: normal;
     font-weight: 400;
     font-size: 36px;
-
 }
 .hr{
     width: 170px;
     border-color: #EC7979;
     margin: 0 auto;
 }
-
 .h4_text{
     margin-top: 40px;
     font-family: 'Raleway';
@@ -41,13 +37,11 @@
     height: 560px;
     display: flex;
     justify-content: space-between;
-
-    }
+}
 .basic{
     width: 370px;
     text-align: center;
     padding-top: 30px;
-
 }
 .optima{
     width: 370px;
@@ -58,7 +52,6 @@
     width: 370px;
     text-align: center;
     padding-top: 30px;
-
 }
 .version{
     background: #333333;
