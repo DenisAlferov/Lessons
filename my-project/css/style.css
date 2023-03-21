@@ -10,21 +10,26 @@
     width: 100vw;
     padding: 15px;
     margin: 0 auto 30px;
-    position: relative;
-}
+    }
 .nav{
-    display: flex;
+    width: 100vw;
+    justify-content: center;
     position: fixed;
-    justify-content: space-between;
     z-index: 100;
     top: 0;
     left: 0;
     background: black;
-    width: 100vw;
     padding: 15px;
     }
+.nav_wrapper{
+    max-width: 1200px;
+    display: flex;
+    margin: 0 auto;
+}
 .nav_list_item{
     display: flex;
+
+
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
@@ -36,31 +41,31 @@
     display: flex;
 
     }
-.a{
-        color: #F5F5F5;
+.a_header{
+    color: #F5F5F5;
+    padding: 15px;
 }
-.a:hover{
+.a_header:hover{
     color: #FFFFFF;
     background: #EC7979;
     border-radius: 10px;
 }
-.a:active{
+.a_header:active{
     background: brown;
     border-radius: 10px;
 }
 .a_axit {
     display: flex;
-
+    flex-grow: 1;
     margin-left: 50px;
 }
 
 
 .wrapper_modern_axure{
-    width: 100vw;
+    max-width: 1200px;
     display: flex;
-    position: relative;
     margin: 0 auto;
-    justify-content: center;
+    justify-content: space-between;
 }
 .modern_axure{
     display: flex;
@@ -139,7 +144,9 @@
 
 }
 .form_free{
-    margin:283px 170px 293px 30px ;
+    margin: 200px 20px;
+    width: 50%;
+    height: 40%;
     max-width: 470px;
     background: #FFFFFF;
     border-radius: 10px;
@@ -147,7 +154,7 @@
 
 }
 .form_content{
-    padding: 0 50px;
+    padding: 0 30px;
 }
 .try{
     text-align: center;
@@ -171,12 +178,15 @@
 }
 .form{
     display: block;
-    width: 370px;
+    width: 100%;
     padding: 15px;
     border: none;
-    margin-bottom: 45px;
+    margin-bottom: 30px;
     border-bottom: 2px solid #BDBDBD;
     outline: none;
+}
+.password_form{
+    margin-bottom: 60px;
 }
 
 .btn_get_st{
@@ -199,7 +209,8 @@
 
 .wrapper_social{
     display: flex;
-
+    max-width: 1200px;
+    margin: 0 auto;
 }
 .social{
     display: flex;
@@ -212,7 +223,7 @@
     font-weight: 700;
     font-size: 24px;
     color: #333333;
-    padding: 18px 50px 18px 50px;
+    padding: 18px
 
 }
 .p_social{
@@ -222,14 +233,13 @@
     font-size: 18px;
     line-height: 21px;
     color: #86878B;
-    padding: 0 50px;
+    padding: 0 18px;
 }
 .icons{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-
-}
+    }
 .img_icon{
     padding-right: 27px;
     fill: #CCCCCC;
@@ -247,10 +257,15 @@
 }
 
 .tabs-section{
-
     padding: 0 14px;
     margin: 0 auto;
 
+}
+.tabs {
+    max-width: 1200px;
+    display: flex;
+    justify-content: flex-start;
+    margin: 0 auto;
 }
 .tab1, .tab2, .tab3{
     display: inline-block;
@@ -274,13 +289,15 @@
 }
 .tab2 {
 
-    margin: 0 -5px -1px -5px;
+    margin: 110px -5px -1px -5px;
 }
 .tab3 {
 
     margin-bottom: -1px;
 }
 .wrapper-tabs{
+    max-width: 1200px;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
     border: 1px solid #C6CBCD;
@@ -288,8 +305,8 @@
     border-top-left-radius: 0;
     border-top-color: #F5F5F5;
     border: 1px solid #C6CBCD;
+    gap: 30px;
     font-size: 0;
-
 }
 .content-tabs{
     display: inline-block;
@@ -317,8 +334,8 @@
     margin-bottom: 27px;
 }
 .img-tabs{
-    display: inline-block;
-}
+
+    }
 .img-to-block-tabs{
     display: block;
 
@@ -346,6 +363,7 @@
 
 
 .block-awesome{
+    max-width: 1200px;
     padding: 0 15px;
     margin: 0 auto;
     text-align: center;
@@ -421,6 +439,7 @@
 
 
 .wrapper-pricing{
+    max-width: 1200px;
     padding: 0 15px;
     margin: 0 auto;
    }
@@ -450,6 +469,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 15px;
 }
 .basic{
     width: 370px;
@@ -506,7 +526,11 @@
     padding: 15px 0;
 }
 
-
+.wrapper_customers{
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 1200px;
+}
 .customer{
 
     margin: 100px auto 0;
@@ -541,15 +565,14 @@
 .opinions-customers{
     display: flex;
     margin: 0 auto;
-
+    gap: 15px;
     padding: 40px 15px 0;
    }
 .opinion-customer{
     display: flex;
     position: relative;
     max-width: 370px;
-    margin: 5px;
-    padding: 50px 10px;
+        padding: 50px 10px;
     margin: 0 auto;
     font-family: 'Raleway', sans-serif;
     font-style: normal;
@@ -712,11 +735,14 @@ flex-direction: column;
     margin: 0 auto;
 }
 .form_2{
-    width: 570px;
+    width: 100%;
+}
+.registration{
+    width: 50%;
 }
 .message{
     padding-top: 14px;
-    width: 500px;
+    width: 50%;
        }
 .form_wrapper{
     display: flex;
@@ -742,7 +768,7 @@ flex-direction: column;
     margin-left: 15px;
     resize: none;
     width: 500px;
-    height: 225px;
+    height: 197px;
     border: none;
     border-bottom: 2px solid #BDBDBD;
     outline: none;
@@ -776,7 +802,7 @@ flex-direction: column;
         margin-left: 15px;
         resize: none;
         width: 400px;
-        height: 225px;
+
         border: none;
         border-bottom: 2px solid #BDBDBD;
         outline: none;
@@ -787,4 +813,273 @@ flex-direction: column;
 
     }
   }
+@media (min-width: 1024px) and (max-width: 1200px) {
 
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .wrapper_modern_axure{
+        max-width: 1200px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 0 auto;
+        justify-content: center;
+    }
+    .axit{
+        justify-content: center;
+        padding: 210px 15px 0 50px;
+        margin: 0 auto;
+        z-index: 3;
+    }
+    .hr_axit{
+        width: 170px;
+        border-color: #FFFFFF;
+        margin: 50px auto 42px;
+
+    }
+    .p_axit{
+    margin: 0 auto;
+
+    }
+    .download{
+        margin: 50px auto;
+    }
+    .form_free{
+        margin: 20px auto;
+        width: 100%;
+        height: 40%;
+        max-width: 70vw;
+        background: #FFFFFF;
+        border-radius: 10px;
+        z-index: 2;
+
+
+    }
+    .btn_get_st{
+        width: 100%;
+        max-width: 70vw;
+    }
+    .wrapper_social{
+        display: flex;
+        flex-direction: column;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .text_area {
+        margin-left: 15px;
+        resize: none;
+        width: 300px;
+        border: none;
+        border-bottom: 2px solid #BDBDBD;
+        outline: none;
+    }
+    .p-wrapper-tabs{
+        font-size: 20px;
+    }
+    .p-awesome{
+        font-size: 30px;
+        width: 70%;
+        text-align: center;
+        margin: 0  auto;
+    }
+    .wrapper-tabs{
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border: 1px solid #C6CBCD;
+        border-radius: 5px;
+        border-top-left-radius: 0;
+        border-top-color: #F5F5F5;
+        border: 1px solid #C6CBCD;
+        gap: 30px;
+        font-size: 0;
+    }
+    .img-tabs{
+margin: 0 auto;
+    }
+    .content-tabs{
+        display: inline-block;
+        width: 570px;
+        margin: 0 auto;
+        vertical-align: top;
+    }
+    .download-tabs{
+        margin: 0 auto 54px;
+        background-color:#EC7979;
+        justify-content: center;
+        text-align: center;
+        padding: 16px;
+        cursor: pointer;
+
+    }
+    .tabs {
+        max-width: 1200px;
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+
+
+    }
+    .h2-awesome {
+        font-size: 50px;
+    }
+    .text-awesome{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+    .h2-pricing{
+        font-size: 50px;
+    }
+    .price{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+    .basic{
+        width: 70%;
+        text-align: center;
+        padding: 30px 0;
+    }
+    .optima{
+        width: 70%;
+        text-align: center;
+
+    }
+    .pro{
+        width: 70%;
+        text-align: center;
+        padding-top: 30px;
+    }
+    .version{
+        font-size: 40px;
+    }
+    .price1{
+        font-size: 40px;
+    }
+    .duration{
+        font-size: 40px;
+    }
+    .gb{
+        font-size: 40px;
+    }
+    .tab1, .tab2, .tab3{
+        font-size: 30px;
+
+    }
+    .h2-customers{
+        font-size: 50px;
+    }
+    .opinion-customer1{
+        display: none;
+    }
+    .opinion-customer{
+        max-width: 90%;
+        font-size: 30px;
+
+    }
+    .opinion-customer:before{
+        position: absolute;
+        content: "";
+        border-left: 20px solid transparent;
+        border-right: 20px solid transparent;
+        border-top: 30px solid #E2E2E2;
+        left: 200px;
+        top: 100%;
+    }
+    .who-is-who{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 15px;
+        margin: 0 auto;
+        width: 90%;
+    }
+    .who-is-who1{
+        display: none;
+    }
+    .img-customer{
+        width: 20%;
+        height: 75%;
+        margin-right: 30px;
+    }
+    .name-customer{
+        font-size: 40px;
+    }
+    .profession-customer{
+
+        font-size: 30px;
+
+    }
+    .h2-stylish{
+        font-size: 50px;
+    }
+    .h2-contact{
+        font-size: 50px;
+    }
+
+
+}
+@media (min-width: 320px) and (max-width: 768px) {
+    .form_free{
+        margin: 200px 20px;
+        width: 100%;
+        height: 40%;
+        max-width: 470px;
+        background: #FFFFFF;
+        border-radius: 10px;
+        z-index: 2;
+
+    }
+    .p-wrapper-tabs{
+        font-size: 10px;
+    }
+    .box-img-awesome {
+        width: 200px;
+        height: 200px;
+        border: 1px solid #EC7979;
+        border-radius: 50%;
+        margin: 0 auto;
+    }
+    .img-awesome1{
+        width: 80%;
+        height: 80%;
+        margin: 7px auto;
+    }
+    .img-awesome2 {
+        width: 80%;
+        height: 60%;
+        margin: 42px auto;
+    }
+    .img-awesome3 {
+        margin: 25px auto;
+        width: 60%;
+        height: 80%;
+    }
+    .p-contact{
+
+        font-size: 10px;
+
+    }
+    .form_wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .message{
+        padding-top: 14px;
+        width: 90%;
+    }
+    .registration{
+        width: 90%;
+    }
+    .p-footer{
+        font-size: 10px;
+    }
+}
