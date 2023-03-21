@@ -738,13 +738,16 @@ flex-direction: column;
     width: 100%;
 }
 .registration{
-    width: 50%;
+    width: 500px;
+
 }
 .message{
     padding-top: 14px;
     width: 50%;
        }
 .form_wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
 }
